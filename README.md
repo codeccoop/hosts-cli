@@ -5,7 +5,7 @@ A CLI to handle /etc/hosts file as a local DNS resolver
 
 ```bash
 wget -q -O - https://raw.githubusercontent.com/codeccoop/hosts-cli/main/install.sh | bash -
-source .bashrc
+source .profile
 ```
 
 ## Usage
