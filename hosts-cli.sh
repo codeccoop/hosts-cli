@@ -211,7 +211,7 @@ function add {
 
         if [ $(it_exists $DOMAIN) -eq 0 ]; then
             if [ "$GROUP" == '0' ]; then
-                GROUP='MAIN'
+                GROUP='main'
                 if [ $(it_exists -g $GROUP) -eq 0 ]; then
                     add_group $GROUP 
                     echo -e "\e[1m$GROUP added as dns group\e[0m"
