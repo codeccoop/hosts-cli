@@ -231,6 +231,7 @@ function add {
                     else
                         echo "# $ip   $domain" | sudo tee -a $FILE >/dev/null
                     fi
+                    i=$((i+1))
                 done
                 echo "$IP   $DOMAIN" | sudo tee -a $FILE >/dev/null
                 echo -e " \e[1m$DOMAIN\e[0m: added with IP $IP\e[0m"
